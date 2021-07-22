@@ -1,13 +1,13 @@
 {
     "name": "reachwelllandpage",
     "version": "1.0.0",
-    "description": "Landing page for reachwell",
+    "description": "",
     "main": "script.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "deploy": "gh-pages -d dist"
     },
-    "author": "{Baskar}",
+    "author": "",
     "license": "ISC",
     "dependencies": {
         "gh-pages": "^3.2.3",
