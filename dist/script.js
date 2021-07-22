@@ -92,11 +92,11 @@ loadingManager.onError = () =>
 }
 
 const textureLoader = new THREE.TextureLoader(loadingManager);
-const colorTexture = textureLoader.load('/textures/doors/logo_24.png');
-const arvrTexture = textureLoader.load('/textures/doors/arvr.jpg');
-const brandConsulting = textureLoader.load('/textures/doors/brandConsult.png');
-const creativeConsult = textureLoader.load('/textures/doors/creative.jpg');
-const digitalMarket = textureLoader.load('/textures/doors/digitalmarket.png');
+const colorTexture = textureLoader.load('logo_24.png');
+const arvrTexture = textureLoader.load('arvr.jpg');
+const brandConsulting = textureLoader.load('brandConsult.png');
+const creativeConsult = textureLoader.load('creative.jpg');
+const digitalMarket = textureLoader.load('digitalmarket.png');
     
     const createSolarSystem = () => {
         console.log('--- In createSolarSystem----');
@@ -187,7 +187,7 @@ const digitalMarket = textureLoader.load('/textures/doors/digitalmarket.png');
                  * Textures
                  */
                 const textureLoader = new THREE.TextureLoader()
-                const particleTexture = textureLoader.load('/textures/doors/8.png')
+                const particleTexture = textureLoader.load('8.png')
 
             const particlesGeometry = new THREE.BufferGeometry();
             const particlesMaterial = new THREE.PointsMaterial();
